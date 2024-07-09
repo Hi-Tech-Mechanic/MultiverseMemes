@@ -1,0 +1,50 @@
+using UnityEngine;
+
+public class DataStructure : MonoBehaviour
+{
+    public ClassObjectStorage ClassObjectStorage => GameObject.FindWithTag("GameManager").GetComponent<ClassObjectStorage>();
+    public MoneyMenu MoneyMenu => ClassObjectStorage._MoneyMenu;
+    public Upgrades Upgrades => ClassObjectStorage._Upgrades;
+    public GlobalUpgrades GlobalUpgrades => ClassObjectStorage._GlobalUpgrades;
+    public MemeShop MemeShop => ClassObjectStorage._MemeShop;
+    public CombinedUniverse.MemeShop MainMemeShop => ClassObjectStorage._MainMemeShop;
+    public MainAudio MainAudio => ClassObjectStorage._MainAudio;
+    public AudioEffectsOptions AudioEffects => ClassObjectStorage._AudioEffectsOptions;
+    public MusicOptions Music => ClassObjectStorage._MusicOptions;
+    public FloatPrefabs FloatPrefabs => ClassObjectStorage._FloatPrefabs;
+    public Calendar Calendar => ClassObjectStorage._Calendar;
+    public CaseMenu CasesMenu => ClassObjectStorage._CasesMenu;
+    public IdleADReward IdleADReward => ClassObjectStorage._IdleADReward;
+    public ClickADReward ClickADReward => ClassObjectStorage._ClickADReward;
+    public SaveAndLoad SaveAndLoad => ClassObjectStorage._SaveAndLoad;
+    public Disclaimer Disclaimer => ClassObjectStorage._Disclaimer;
+    public CombinedUniverse.Achievements Achievements_CombinedUniverse => ClassObjectStorage._Achievements_CombinedUniverse;
+    public Russians_vs_Lizards.Achievements Achievements_R_vs_L => ClassObjectStorage._Achievements_Russians_vs_Lizards;
+    public GenaBukinUniverse.Achievements Achievements_GenaBukinUniverse => ClassObjectStorage._Achievements_GenaBukinUniverse;
+    public GenaGorinUniverse.Achievements Achievements_GenaGorinUniverse => ClassObjectStorage._Achievements_GenaGorinUniverse;
+    public PapichUniverse.Achievements Achievements_PapichUniverse => ClassObjectStorage._Achievements_PapichUniverse;
+    public UniverUniverse.Achievements Achievements_UniverUniverse => ClassObjectStorage._Achievements_UniverUniverse;
+    public ParanormalUniverse.Achievements Achievements_ParanormalUniverse => ClassObjectStorage._Achievements_ParanormalUniverse;
+    public RockUniverse.Achievements Achievements_RockUniverse => ClassObjectStorage._Achievements_RockUniverse;
+    public ShrekUniverse.Achievements Achievements_ShrekUniverse => ClassObjectStorage._Achievements_ShrekUniverse;
+    public Battle Battle => ClassObjectStorage._Battle;
+    public Heroes Heroes => ClassObjectStorage._Heroes;
+    public EnemiesSystem EnemiesSystem => ClassObjectStorage._EnemiesSystem;
+    public HeroesMethods HeroesMethods => ClassObjectStorage._HeroesMethods;
+    public Multiverse Multiverse => ClassObjectStorage._Multiverse;
+    public Skills Skills => ClassObjectStorage._Skills;
+    public SkillsMethods SkillsMethods => ClassObjectStorage._SkillsMethods;
+    public PerkTree PerkTree => ClassObjectStorage._PerkTree;
+    public Weapons Weapons => ClassObjectStorage._Weapons;
+    public GetMoneyAnimation GetMoneyAnimation => ClassObjectStorage._GetMoneyAnimation;
+    public BattleHero BattleHero => ClassObjectStorage._BattleHero;
+    public Items Items => ClassObjectStorage._Items;
+    public StagesMenu StagesMenu => ClassObjectStorage._StagesMenu;
+    public DeadQuestion DeadQuestion => ClassObjectStorage._DeadQuestion;
+    public ListOfEffects ListOfEffects => ClassObjectStorage._ListOfEffects;
+    public Facilities Facilities => ClassObjectStorage._Facilities;
+    public Learning Learning => ClassObjectStorage._Learning;
+    public ArmorMark_1 ArmorMark_1 => ClassObjectStorage._ArmorMark_1;
+    public ArmorMark_2 ArmorMark_2 => ClassObjectStorage._ArmorMark_2;
+    public ArmorMark_3 ArmorMark_3 => ClassObjectStorage._ArmorMark_3;
+}
