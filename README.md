@@ -1,2 +1,2 @@
 # MultiverseMemes
-Скрипты игры "Мультивселенная мемов"
+Scripts for the game "Multiverse of Memes"
